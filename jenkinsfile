@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage('Build') { 
 			tools {
-				jdk 'jdk8'
-				maven 'apache-maven-3.5.4'
+				jdk 'jdk11'
+				maven 'apache-maven-3.6.3'
 			}
 			steps {
 				powershell 'java -version'
